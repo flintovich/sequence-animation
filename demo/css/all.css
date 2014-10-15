@@ -1,0 +1,148 @@
+/*! HTML5 Boilerplate v4.3.0 | MIT License | http://h5bp.com/ */
+
+/*
+ * What follows is the result of much research on cross-browser styling.
+ * Credit left inline and big thanks to Nicolas Gallagher, Jonathan Neal,
+ * Kroc Camen, and the H5BP dev community and team.
+ */
+
+/* ==========================================================================
+   Base styles: opinionated defaults
+   ========================================================================== */
+html,
+button,
+input,
+select,
+textarea {
+    color: #222;
+}
+
+html {
+    font-size: 1em;
+    line-height: 1.4;
+}
+
+::-moz-selection {
+    background: #b3d4fc;
+    text-shadow: none;
+}
+
+::selection {
+    background: #b3d4fc;
+    text-shadow: none;
+}
+hr {
+    display: block;
+    height: 1px;
+    border: 0;
+    border-top: 1px solid #ccc;
+    margin: 1em 0;
+    padding: 0;
+}
+table{
+    width: 100%
+}
+table td{
+    border: 1px solid #888;
+    padding: 15px 5px;
+    text-align: center;
+    vertical-align: middle;
+}
+
+audio,
+canvas,
+img,
+video {
+    vertical-align: middle;
+}
+fieldset {
+    border: 0;
+    margin: 0;
+    padding: 0;
+}
+textarea {
+    resize: vertical;
+}
+h2 {
+    font: bold 55px/60px Verdana, sans-serif;
+    margin: 0 0 20px;
+    text-transform: uppercase;
+    text-shadow: 1px 1px #fff;
+    text-align: center;
+}
+h3 {
+    font: bold 25px/30px Verdana, sans-serif;
+    margin: 0 0 20px;
+    text-transform: uppercase;
+    text-shadow: 1px 1px #fff;
+}
+
+
+/* styles for plugin */
+.animate{
+    opacity: 0;
+    position: relative;
+}
+.animate[data-anim-type=fade-up]{
+    top: 20px;
+}
+.animate[data-anim-type=fade-down]{
+    bottom: 20px;
+}
+.animate[data-anim-type=fade-left]{
+    left: 20px;
+}
+.animate[data-anim-type=fade-right]{
+    right: 20px;
+}
+/* styles for plugin END */
+
+
+.inner {
+    width: 980px;
+    margin: 0 auto;
+}
+
+.section.first{
+    background: #D5D4F7;
+}
+.section.second{
+    background: #beedf7;
+}
+.section.third{
+    background: #b7f7e1;
+}
+.section.fourth{
+    background: #e7f7b6;
+}
+.section.fifth{
+    background: #f7ce93;
+}
+.section{
+    padding: 50px 0 70px;
+    overflow: hidden;
+}
+
+.col-holder .col{
+    width: 50%;
+    float: left;
+    padding: 0 25px 0 0;
+    box-sizing: padding-box;
+}
+.col-holder .col.col3{
+    width: 33%;
+}
+.btn {
+    border: 2px solid #444;
+    clear: both;
+    margin: 50px 0 0;
+    display: inline-block;
+}
+.btn a{
+    text-transform: uppercase;
+    text-decoration: none;
+    font-weight: bold;
+    color: #444;
+    display: block;
+    padding: 6px 40px;
+}

@@ -1,4 +1,5 @@
 jQuery(function() {
-	jQuery('#wrapper > .section').sequenceAnimation();
+    // call plugin
+	jQuery('.section').sequenceAnimation();
 });
 
